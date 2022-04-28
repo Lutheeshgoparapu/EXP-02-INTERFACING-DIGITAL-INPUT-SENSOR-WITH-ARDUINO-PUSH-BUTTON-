@@ -66,7 +66,28 @@ FIGURE -03
 
 
 
-PROGRAM 
+PROGRAM
+"
+int buttonState = 0;
+void setup()
+{
+  pinMode(2, OUTPUT);
+  pinMode(2, INPUT);
+}
+
+void loop()
+{
+  buttonState = digitalRead(13);
+  if (buttonState == HIGH)
+      {
+       digitalWrite(2, HIGH);
+      }
+  else
+      {  
+       digitalWrite(2, LOW);
+      }
+  delay(10); 
+}
  
  
  
@@ -77,5 +98,5 @@ PROGRAM
 
 Output of the simulation :
 
-[My image](username.github.com/repository/img/image.jpg)
+![2022-04-28 (1)](https://user-images.githubusercontent.com/94154531/165751802-49fc1d40-6ef8-45e7-8dde-4b8ebd73f8a1.png)
 
