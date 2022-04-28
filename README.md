@@ -66,7 +66,7 @@ FIGURE -03
 
 
 
-##PROGRAM
+PROGRAM
 ```
 int buttonState = 0;
 void setup()
@@ -97,10 +97,10 @@ void loop()
 
 
 
-##Output of the simulation :
+Output of the simulation :
 
 ![2022-04-28 (1)](https://user-images.githubusercontent.com/94154531/165751802-49fc1d40-6ef8-45e7-8dde-4b8ebd73f8a1.png)
-##RESULT
+RESULT
 ```
 Thus the digtal interfacing of circuit using Aurdino circuit is completed sucessfully by
 thinkercad software.
